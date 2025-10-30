@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact — REAL ESTATE MAROC</title>
+    <meta name="description" content="Contact REAL ESTATE MAROC in Tangier. Call, WhatsApp, or email us. Find our office on the map and send a message." />
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a href="#content" class="skip-link">Skip to content</a>
+    <header class="site-header">
+      <div class="container wrap">
+        <a href="index.html" class="brand" aria-label="REAL ESTATE MAROC Home">
+          <span class="brand-text">REAL ESTATE MAROC</span>
+        </a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-nav">
+          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </button>
+        <nav class="site-nav" id="primary-nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="services.html">Services</a>
+          <a href="app.html">App <span class="pill">Soon</span></a>
+          <a href="contact.html">Contact</a>
+          <a href="privacy-website.html">Privacy</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="content">
+      <section class="section" style="background: var(--black); color: var(--white);">
+        <div class="container">
+          <h1 class="reveal" style="font-size: clamp(28px, 4.5vw, 44px);">Get in Touch</h1>
+          <p class="reveal" style="max-width: 760px; color:#EDEDED;">We’re here to help. Reach us via phone, WhatsApp, or email, or send a message through the form below.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container grid two">
+          <div class="reveal">
+            <h2>Contact Form</h2>
+            <form id="contact-form" novalidate>
+              <div class="form-grid">
+                <div class="field">
+                  <label for="name">Name</label>
+                  <input id="name" name="name" type="text" placeholder="Your name" required />
+                  <span class="error">This field is required.</span>
+                </div>
+                <div class="field">
+                  <label for="email">Email</label>
+                  <input id="email" name="email" type="email" placeholder="your@email.com" required />
+                  <span class="error">Enter a valid email.</span>
+                </div>
+                <div class="field">
+                  <label for="phone">Phone</label>
+                  <input id="phone" name="phone" type="tel" placeholder="e.g. +212 6 00 00 00 00" />
+                  <span class="error">Enter a valid phone number.</span>
+                </div>
+                <div class="field full">
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" placeholder="How can we help?" required></textarea>
+                  <span class="error">Please write a message.</span>
+                </div>
+              </div>
+              <div style="margin-top: 8px; display:flex; gap:10px; align-items:center; flex-wrap:wrap;">
+                <button class="btn" type="submit">Send Message</button>
+                <span id="form-status" class="muted" aria-live="polite"></span>
+              </div>
+            </form>
+
+            <div style="margin-top:18px; display:flex; gap:10px; flex-wrap:wrap;" class="reveal">
+              <a class="btn outline" href="tel:+2120657003071">Call</a>
+              <a class="btn outline" href="https://wa.me/2120657003071?text=Hello%20REAL%20ESTATE%20MAROC" target="_blank" rel="noopener">WhatsApp</a>
+              <a class="btn outline" href="mailto:support@reelestatemaroc.org">Email</a>
+            </div>
+          </div>
+
+          <div class="reveal">
+            <h2>Our Location</h2>
+            <p>43 RUE DE LA MONTAGNE, TANGER, 90040</p>
+            <iframe class="map-embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=43%20RUE%20DE%20LA%20MONTAGNE%2C%20TANGER%2C%2090040&hl=en&z=16&output=embed"></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer section">
+      <div class="container grid">
+        <div class="footer-brand">
+          <p class="muted">Excellence in real estate, construction, trade, and investment management.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <p><a href="about.html">About Us</a></p>
+          <p><a href="services.html">Services</a></p>
+          <p><a href="contact.html">Contact</a></p>
+          <p><a href="privacy-website.html">Privacy Policy</a></p>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <p>REAL ESTATE MAROC</p>
+          <p>43 RUE DE LA MONTAGNE,<br/>TANGER, 90040</p>
+          <p>D-U-N-S® Number: 353823895</p>
+        </div>
+      </div>
+      <div class="container">
+        <p class="legal">© 2025 REAL ESTATE MAROC. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <button id="backToTop" aria-label="Back to top" title="Back to top">↑</button>
+    <script src="main.js"></script>
+  </body>
+  </html>
