@@ -1,122 +1,163 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Privacy Policy (Mobile App) — REAL ESTATE MAROC</title>
-    <meta name="description" content="Privacy policy for REAL ESTATE MAROC mobile applications, including data collection, use, and user rights." />
-    
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <a href="#content" class="skip-link">Skip to content</a>
-    <header class="site-header">
-      <div class="container wrap">
-        <a href="index.html" class="brand" aria-label="REAL ESTATE MAROC Home">
-          <span class="brand-text">REAL ESTATE MAROC</span>
-        </a>
-        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-nav">
-          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
-        </button>
-        <nav class="site-nav" id="primary-nav">
-          <a href="index.html">Home</a>
-          <a href="about.html">About Us</a>
-          <a href="services.html">Services</a>
-          <a href="app.html">App <span class="pill">Soon</span></a>
-          <a href="contact.html">Contact</a>
-          <a href="privacy-website.html">Privacy</a>
-        </nav>
-      </div>
-    </header>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Privacy Policy — REAL ESTATE MAROC</title>
+  <style>
+    /* ---------- GENERAL LAYOUT ---------- */
+    body {
+      font-family: "Segoe UI", Roboto, Ubuntu, Helvetica, Arial, sans-serif;
+      background: linear-gradient(135deg, #f6f9f8, #e9f3f1);
+      color: #333;
+      line-height: 1.7;
+      margin: 0;
+      padding: 2rem;
+      display: flex;
+      justify-content: center;
+    }
 
-    <main id="content">
-      <section class="section" style="background: var(--black); color: var(--white);">
-        <div class="container">
-          <h1 style="font-size: clamp(26px, 4vw, 40px);" class="reveal">Privacy Policy (Mobile App)</h1>
-          <p class="reveal" style="color:#EDEDED; max-width:780px;">This policy applies to REAL ESTATE MAROC mobile applications published by us.</p>
-        </div>
-      </section>
+    /* ---------- CONTAINER ---------- */
+    .container {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      max-width: 900px;
+      width: 100%;
+      padding: 3rem;
+      animation: fadeIn 0.8s ease;
+    }
 
-      <section class="section">
-        <div class="container grid two">
-          <div class="reveal">
-            <h2>Types of Data</h2>
-            <p>
-              Depending on app features, we may process: account information (name, email, phone), usage data (device, app interactions), and optional content you submit. Certain permissions (e.g., camera, files, location) are requested only when a feature requires them.
-            </p>
-          </div>
-          <div class="reveal">
-            <h2>Purposes</h2>
-            <p>
-              To provide and improve app functionality, support customer service, ensure security and fraud prevention, and comply with legal obligations.
-            </p>
-          </div>
-          <div class="reveal">
-            <h2>Permissions</h2>
-            <p>
-              If the app requests permissions (e.g., notifications, camera, storage, location), they are used only to enable related features. You can withdraw permissions via your device settings; some features may then be unavailable.
-            </p>
-          </div>
-          <div class="reveal">
-            <h2>Sharing</h2>
-            <p>
-              We do not sell personal data. We may share data with processors (cloud hosting, analytics, crash reporting) under contractual safeguards, or as required by law.
-            </p>
-          </div>
-          <div class="reveal">
-            <h2>Security & Retention</h2>
-            <p>
-              We apply technical and organizational measures to protect data and retain it only as long as necessary for the stated purposes or as required by law.
-            </p>
-          </div>
-          <div class="reveal">
-            <h2>Your Choices & Rights</h2>
-            <p>
-              You can access, correct, or delete your data subject to applicable law. Contact us at <a href="mailto:support@reelestatemaroc.org">support@reelestatemaroc.org</a> for requests or questions.
-            </p>
-          </div>
-          <div class="reveal">
-            <h2>International Transfers</h2>
-            <p>
-              When data is processed outside your jurisdiction, we implement appropriate safeguards consistent with applicable laws.
-            </p>
-          </div>
-          <div class="reveal">
-            <h2>Updates</h2>
-            <p>
-              We may update this policy to reflect changes in our apps or legal requirements. The latest version will be available here with an effective date.
-            </p>
-          </div>
-        </div>
-      </section>
-    </main>
+    /* ---------- HEADERS ---------- */
+    h1 {
+      color: #0E7C66;
+      font-size: 2.2rem;
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
 
-    <footer class="site-footer section">
-      <div class="container grid">
-        <div class="footer-brand">
-          <p class="muted">Excellence in real estate, construction, trade, and investment management.</p>
-        </div>
-        <div>
-          <h4>Quick Links</h4>
-          <p><a href="about.html">About Us</a></p>
-          <p><a href="services.html">Services</a></p>
-          <p><a href="contact.html">Contact</a></p>
-          <p><a href="privacy-website.html">Privacy Policy</a></p>
-        </div>
-        <div>
-          <h4>Company</h4>
-          <p>REAL ESTATE MAROC</p>
-          <p>43 RUE DE LA MONTAGNE,<br/>TANGER, 90040</p>
-          <p>D-U-N-S® Number: 353823895</p>
-        </div>
-      </div>
-      <div class="container">
-        <p class="legal">© 2025 REAL ESTATE MAROC. All rights reserved.</p>
-      </div>
-    </footer>
+    h2 {
+      color: #0E7C66;
+      margin-top: 2.5rem;
+      border-left: 4px solid #0E7C66;
+      padding-left: 0.6rem;
+      font-size: 1.4rem;
+    }
 
-    <button id="backToTop" aria-label="Back to top" title="Back to top">↑</button>
-    <script src="main.js"></script>
-  </body>
-  </html>
+    /* ---------- TEXT & LINKS ---------- */
+    p, ul, li {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    a {
+      color: #0E7C66;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    ul {
+      list-style: disc;
+      margin-left: 1.5rem;
+    }
+
+    strong {
+      color: #0E7C66;
+    }
+
+    /* ---------- CODE BLOCKS ---------- */
+    code, pre {
+      background: #f5f7fb;
+      padding: 0.25rem 0.5rem;
+      border-radius: 6px;
+      font-family: "Courier New", monospace;
+      color: #0E7C66;
+    }
+
+    /* ---------- FOOTER & CONTACT ---------- */
+    p:last-child {
+      margin-top: 2rem;
+      border-top: 1px solid #e6e6e6;
+      padding-top: 1rem;
+      text-align: center;
+      font-size: 1rem;
+    }
+
+    /* ---------- ANIMATION ---------- */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ---------- RESPONSIVE ---------- */
+    @media (max-width: 600px) {
+      .container {
+        padding: 2rem;
+      }
+      h1 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
+
+  <meta name="date" content="2025-11-01"/>
+  <meta name="robots" content="noindex"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Privacy Policy</h1>
+    <p>Effective date: 2025-11-01</p>
+
+    <h2>Overview</h2>
+    <p>REAL ESTATE MAROC (“we”, “our”, “us”) respects your privacy. The app is designed to work <strong>offline for core features</strong> and does not send personal information to our servers.</p>
+    <p>The app works offline for viewing most content, but actions such as opening maps, sending emails, placing calls, or opening links may require an internet connection.</p>
+
+    <h2>What the app does</h2>
+    <ul>
+      <li>Shows curated information about properties, services, and news/updates.</li>
+      <li>Provides <strong>on-device mortgage calculators</strong>.</li>
+      <li>Allows you to <strong>generate a company profile PDF</strong> and share news text using your device’s share options.</li>
+      <li>Offers <strong>Contact</strong> actions (Call, WhatsApp, Email, Map) that open your external apps.</li>
+    </ul>
+
+    <h2>Data collection</h2>
+    <ul>
+      <li><strong>No analytics, advertising, tracking, or crash-reporting SDKs.</strong></li>
+      <li><strong>No server collection</strong> of personal data.</li>
+      <li>Calculator inputs and generated files/text are processed <strong>locally on your device</strong>.</li>
+    </ul>
+
+    <h2>Internet use &amp; external apps</h2>
+    <p>Most in-app content is available offline. Actions such as opening maps, sending an email, placing a call, or opening website links may require internet access and are handled by your chosen external app or website under its own privacy policy. We do not receive the content you send through those services.</p>
+
+    <h2>Permissions</h2>
+    <p>The app does not request dangerous runtime permissions. When you share a file, Android’s secure <code>FileProvider</code> grants temporary, read-only access to the specific file you choose.</p>
+
+    <h2>Third-party services</h2>
+    <ul>
+      <li>In-App Review (Google Play) may be shown; we do not receive your personal information from this feature.</li>
+      <li>External apps you choose (e.g., dialer, WhatsApp, email, Maps) and websites operate under their own privacy policies.</li>
+    </ul>
+
+    <h2>Data sharing and transfers</h2>
+    <p>We do not sell or share your personal data with third parties. No data leaves your device unless you choose to export or share it using your device’s share options.</p>
+
+    <h2>Children’s privacy</h2>
+    <p>This app is not directed to children under 13, and we do not knowingly collect children’s personal information.</p>
+
+    <h2>Changes</h2>
+    <p>We may update this policy to reflect product or legal changes. The latest version and effective date will be shown in the app and on this page.</p>
+
+    <h2>Contact</h2>
+    <p>
+      Email: <a href="mailto:support@reelestatemaroc.org">support@reelestatemaroc.org</a><br/>
+      Phone: <a href="tel:+2120657003071">+212 0657 003 071</a><br/>
+      Website: <a href="https://www.reelestatemaroc.org" rel="external nofollow">https://www.reelestatemaroc.org</a>
+    </p>
+  </div>
+</body>
+</html>
